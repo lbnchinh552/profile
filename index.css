@@ -158,7 +158,7 @@ box-shadow: inset 20px 20px 60px #bebebe,
     left: -60px;
   }
 }
-@media(max-width: 440px){
+@media(max-width: 330px){
   .wrapper .center-line,
   .row section::before,
   .row section .icon{
@@ -171,7 +171,8 @@ box-shadow: inset 20px 20px 60px #bebebe,
 }
 
 img{
-  width: 440px;
-  min-height: 440px;
+  width: 100%;
+  max-width: 440px;
+  min-height: 400px;
   border-radius: 8px;
 }
